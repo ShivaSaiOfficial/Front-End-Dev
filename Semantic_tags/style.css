@@ -1,0 +1,97 @@
+.page1 {
+  color: rgb(102, 102, 102);
+  border-radius: 10px;
+  border-color: brown;
+  /*Shortcut for border :2px solid brown; */
+  border-width: 3px;
+  border-style: solid;
+  border-color: brown;
+  margin: 10px 10px 10px 15px; /* left top right bottom*/
+  padding: 20px;
+  font-family: Poppins;
+}
+
+.page1 h1 {
+  text-align: center;
+  font-family: Poppins;
+  color: rgb(206, 89, 0);
+  margin-top: auto;
+}
+
+.page2 {
+  font-family: Poppins;
+  border: 3px solid brown;
+  width: 450px;
+  margin: 10px 10px 10px 15px;
+  border-radius: 10px;
+}
+.page2 h1 {
+  text-align: center;
+  color: rgb(206, 89, 0);
+}
+
+.page2 p {
+  color: rgb(102, 102, 102);
+  padding: 10px;
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+  padding: 5px;
+  color: azure;
+  background-color: rgb(206, 89, 0);
+  border-radius: 50px;
+}
+
+header h1 {
+  font-family: Poppins;
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  padding-left: 20px;
+  font-family: Poppins;
+  font-size: 20;
+}
+
+nav a:hover {
+  background: white;
+  color: rgb(206, 89, 0);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 5px;
+}
+footer {
+  font-size: 4px;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.butt {
+  border-radius: 30px;
+  height: 50px;
+  width: 140px;
+  border: none;
+  margin: auto;
+  color: white;
+  background: linear-gradient(to right, #245c8e, #f29b0c, #e94336, #dd2522);
+}
