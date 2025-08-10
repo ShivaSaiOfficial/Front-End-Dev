@@ -47,7 +47,7 @@ nav a {
 
 section h1 {
   position: absolute;
-  top: 169px;
+  top: 170px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -64,14 +64,16 @@ section h1 {
   right: 0;
   justify-self: center;
   z-index: 3;
-  top: 2px;
+  margin-top: 0%;
+  padding-top: 0%;
+  top: 0px;
 
 }
 
 .mac-image {
   position: absolute;
-  left: 50%; /* Position the left edge at the horizontal center */
-  top: 780px; /* Position the top edge at the vertical center */
+  left: 50%; 
+  top: 710px; 
   transform: translate(-50%, -80%) scale(2);
   z-index: 2;
 }
@@ -97,7 +99,7 @@ section button {
   width: 128.81px;
   height: 63.6px;
   z-index: 4;
-  top: 980px;
+  top: 940px;
 
 }
 
@@ -107,7 +109,7 @@ section {
 
 section h2 {
   position: absolute;
-  margin: auto;
+  margin-bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -119,4 +121,5 @@ section h2 {
   width: auto;
   text-align: center;
   direction: ltr;
+  bottom: 0px;
 }
